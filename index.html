@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Currículum vitae</title>
+        <style type="text/css">
+		h2
+ 		{
+			font-family: "Times New Roman";
+			font-size: 60px;
+		    color:#F9F;
+			text-align:center;
+		}
+		p1
+		{
+			font-family: "colibri";
+			font-size:24px;
+			color:#FF0;
+		}
+		</style>
+		</head>
+
+	<body>
+    <h2> INICIAR SESIÓN </h2>
+    <form name="login" 
+    <p2> Usuario </p2>
+    <input type="text" name="userid" align="center" />
+    <p2> Contraseña </p2>
+    <input type="password" name="pswrd" />
+    <input type="button" onclick="check(this.form)" value="Entrar"  />
+    </form>
+    <script language="javascript">
+	function check(form)
+	{
+		if(form.userid.value == "nava" && form.pswrd.value == "cruz")
+		window.open('file:///C:/SANDYGEL/index1.html')
+		else
+		alert("contraseña o usuario incorrecto")
+	}
+	</script>
+
+</body>
+</html>
